@@ -20,25 +20,3 @@ function Card(props) {
 }
 
 export default Card;
-
-
-// import React from 'react';
-// import restaurant from './resData';
-
-// function Card(props) {
-//   const { resData = restaurant } = props;
-//   const {imgSrc, name, cuisine, price, avgRating, avgDeliveryTime } = resData;
-
-//   return (
-//     <div className="font-bold hover:border-4 cursor-pointer m-3 p-2">
-//       <img width={273} height={182} className="" src={imgSrc} alt="404 not found" />
-//       <h3 className="text-xl">{name}</h3>
-//       <h4>{cuisine}</h4>
-//       <h4>{price} Rupees</h4>
-//       <h4>{avgRating} star</h4>
-//       <h4>{avgDeliveryTime}</h4>
-//     </div>
-//   );
-// }
-
-// export default Card
